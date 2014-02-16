@@ -8,12 +8,12 @@ usage
 ----
 
 
-```objective-c
+```objc
 #import "FBRequestConnection+FBRequestConnection_progress.h"
 ```
 
 add receive progress value blocks 
-```objective-c
+```objc
   FBRequestConnection *requestConnection = [[FBRequestConnection alloc] init];
 
   [requestConnection setProgress:^(float progress){
